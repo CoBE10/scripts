@@ -1,0 +1,1 @@
+nohup mpv -fs --cache=99999 --speed=2.00 --audio-pitch-correction=yes "$(xclip -o -selection clipboard)" && exit
